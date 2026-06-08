@@ -1,6 +1,0 @@
-{
-  "name": "EcoTrack",
-  "description": "An elegant eco-conscious habit tracker to monitor progress and reduce your carbon footprint.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
