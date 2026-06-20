@@ -1,0 +1,40 @@
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.9 [39m[90m/app/applet[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+ [31m❯[39m src/__tests__/ImpactTab.test.tsx [2m([22m[2m11 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 6364[2mms[22m[39m
+     [32m✓[39m renders lifetime impact and forest equivalents[32m 145[2mms[22m[39m
+     [32m✓[39m renders all achievement types including solar and unknown[32m 101[2mms[22m[39m
+     [32m✓[39m handles successful clipboard copy[32m 184[2mms[22m[39m
+     [32m✓[39m falls back when clipboard is not available[32m 101[2mms[22m[39m
+     [32m✓[39m falls back when clipboard access throws synchronously[32m 99[2mms[22m[39m
+     [32m✓[39m falls back when clipboard promise rejects[32m 128[2mms[22m[39m
+[31m     [31m×[31m opens social sharing links[39m[32m 107[2mms[22m[39m
+     [33m[2m✓[22m[39m toggles trend period and shows tooltips on hover [33m 334[2mms[22m[39m
+     [32m✓[39m allows unlocking solar when conditions are met[32m 102[2mms[22m[39m
+[31m     [31m×[31m opens and closes share and detail modals[39m[33m 5006[2mms[22m[39m
+     [32m✓[39m handles tree image error[32m 49[2mms[22m[39m
+ [32m✓[39m src/__tests__/App.test.tsx [2m([22m[2m11 tests[22m[2m)[22m[33m 1777[2mms[22m[39m
+     [33m[2m✓[22m[39m navigates to Log tab when Log Activity is clicked [33m 448[2mms[22m[39m
+ [32m✓[39m src/__tests__/DashboardTab.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[33m 883[2mms[22m[39m
+     [33m[2m✓[22m[39m updates footprint goal [33m 348[2mms[22m[39m
+ [32m✓[39m src/__tests__/LogTab.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 742[2mms[22m[39m
+     [33m[2m✓[22m[39m updates quantities and logs appropriate amounts [33m 460[2mms[22m[39m
+ [32m✓[39m src/__tests__/TrendsTab.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[33m 434[2mms[22m[39m
+ [32m✓[39m src/__tests__/Header.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 381[2mms[22m[39m
+ [32m✓[39m src/__tests__/BottomNavBar.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 321[2mms[22m[39m
+ [32m✓[39m src/__tests__/ToastNotification.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 266[2mms[22m[39m
+ [32m✓[39m src/__tests__/Footer.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 70[2mms[22m[39m
+ [32m✓[39m src/__tests__/ActiveView.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 68[2mms[22m[39m
+ [31m❯[39m src/__tests__/Confetti.test.tsx [2m([22m[2m3 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 82[2mms[22m[39m
+[31m     [31m×[31m renders without crashing[39m[32m 60[2mms[22m[39m
+     [32m✓[39m does not render canvas when not active[32m 14[2mms[22m[39m
+[31m     [31m×[31m cancels animation frame on unmount or inactive[39m[32m 4[2mms[22m[39m
+ [32m✓[39m src/__tests__/useStore.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 33[2mms[22m[39m
+ [32m✓[39m src/__tests__/carbon.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+
+[2m Test Files [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m11 passed[39m[22m[90m (13)[39m
+[2m      Tests [22m [1m[31m4 failed[39m[22m[2m | [22m[1m[32m73 passed[39m[22m[90m (77)[39m
+[2m   Start at [22m 08:28:46
+[2m   Duration [22m 41.58s[2m (transform 590ms, setup 1.57s, import 4.18s, tests 11.44s, environment 18.53s)[22m
+
